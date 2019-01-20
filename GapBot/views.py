@@ -1,7 +1,6 @@
-from django.shortcuts import render
 import json
 import redis
-from .redis_config import RedisConfig
+from redis_works.redis_config import RedisConfig
 
 
 def dispatcher(request, token=None):

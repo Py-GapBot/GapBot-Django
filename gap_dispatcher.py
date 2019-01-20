@@ -1,6 +1,6 @@
 import redis
 import json
-from GapBot.redis_config import RedisConfig
+from redis_works.redis_config import RedisConfig
 from handlers import Handler
 
 
